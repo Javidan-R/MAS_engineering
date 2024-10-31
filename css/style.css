@@ -464,6 +464,7 @@ img{
 .main-header .header-top .social-links li a{
 	position:relative;
 	display: block;
+	font-weight: bold; /* Optional: Make it bold */
 	font-size: 13px;
 	line-height: 20px;
 	color: rgba(255,255,255,.70);
@@ -752,6 +753,7 @@ img{
 .main-menu .navigation > li.dropdown > a{
 	padding-right: 15px;
 }
+
 
 .main-menu .navigation > li.dropdown > a:after{
 	font-family: "Flaticon";
