@@ -1683,8 +1683,8 @@ img{
 .main-slider h2{
 	position: relative;
 	display: block;
-	font-size: 70px;
-	color: #ffffff;
+	font-size: 65px;
+	color: orangered;
 	font-weight: 600;
 	line-height: 1.1em;
 }
