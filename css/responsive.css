@@ -733,8 +733,10 @@
 	.main-slider .text{
 		font-size: 14px;
 	}
-	
-
+	/* add after */
+	.service-block .lower-content{
+		height: 355px;
+	}
 	.page-banner h1{
 		font-size:32px;
 		line-height:1.2em;
@@ -1238,5 +1240,8 @@
 
 	.social-icon-three li{
 		margin-right: 5px;
+	}
+	.service-block .lower-content{
+		height: 380px;
 	}
 }
