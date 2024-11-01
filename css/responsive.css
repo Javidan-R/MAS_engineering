@@ -735,7 +735,7 @@
 	}
 	/* add after */
 	.service-block .lower-content{
-		height: 350px;
+		height: auto;
 	}
 	.page-banner h1{
 		font-size:32px;
@@ -1241,7 +1241,7 @@
 	.social-icon-three li{
 		margin-right: 5px;
 	}
-	.service-block .lower-content{
-		height: 410px;
-	}
+	.service-block .lower-content {
+		height: auto;
+	  }
 }
