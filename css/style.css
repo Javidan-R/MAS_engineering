@@ -63,11 +63,9 @@
 
  ***/
 
-@import url("https://fonts.googleapis.com/css?family=Hind:300,400,500,600,700|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i");
-
 /*
-font-family: 'Open Sans', sans-serif;
-font-family: 'Hind', sans-serif;
+  font-family: "Noto Sans", sans-serif !important;
+
 */
 
 @import url("fontawesome-all.css");
@@ -114,7 +112,7 @@ body {
   background: #ffffff;
   -webkit-font-smoothing: antialiased;
   -moz-font-smoothing: antialiased;
-  font-family: "Hind", sans-serif;
+  font-family: "Noto Sans", sans-serif !important;
 }
 
 a {
@@ -141,7 +139,7 @@ h6 {
   margin: 0px;
   background: none;
   line-height: 1.2em;
-  font-family: "Hind", sans-serif;
+  font-family: "Noto Sans", sans-serif !important;
 }
 
 textarea {
@@ -315,7 +313,7 @@ figure {
   padding: 0px;
   color: #001e57;
   font-weight: 600;
-  font-family: "Flaticon";
+  font-family: "Noto Sans", sans-serif !important;
 }
 
 .list-style-one li a:hover {
@@ -1710,7 +1708,7 @@ img {
 .main-slider h2 {
   position: relative;
   display: block;
-  font-size: 65px;
+  font-size: 60px;
   color: orangered;
   font-weight: 600;
   line-height: 1.1em;
@@ -1723,7 +1721,7 @@ img {
   line-height: 26px;
   color: #ffffff;
   font-weight: 400;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Noto Sans", sans-serif !important;
 }
 
 .main-slider .link-box {
@@ -3351,7 +3349,7 @@ img {
   color: #ffffff;
   line-height: 60px;
   font-weight: 400;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Noto Sans", sans-serif !important;
 }
 
 .fun-fact-section .count-box .count-text {
@@ -3371,7 +3369,7 @@ img {
   line-height: 25px;
   font-weight: 500;
   color: #ffffff;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Noto Sans", sans-serif !important;
 }
 
 /*** 
@@ -3431,7 +3429,7 @@ img {
   line-height: 1em;
   color: #161c42;
   font-weight: 600;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Noto Sans", sans-serif !important;
   margin-bottom: 5px;
 }
 
@@ -3450,7 +3448,7 @@ img {
   line-height: 24px;
   color: #161c42;
   font-weight: 500;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Noto Sans", sans-serif !important;
 }
 
 /*** 
@@ -4747,7 +4745,7 @@ img {
   line-height: 26px;
   margin-bottom: 18px;
   padding-left: 120px;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Noto Sans", sans-serif !important;
 }
 
 .project-detail .info-list li a {
@@ -4994,7 +4992,7 @@ img {
 }
 
 .feature-box .feature-block .text {
-  font-family: "Hind", sans-serif;
+  font-family: "Noto Sans", sans-serif !important;
 }
 
 .services-sidebar {
@@ -5427,7 +5425,7 @@ img {
 .why-choose-us .text-box {
   margin-bottom: 30px;
   line-height: 24px;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Noto Sans", sans-serif !important;
 }
 
 .feature-block {
@@ -5501,7 +5499,7 @@ img {
   position: relative;
   font-size: 15px;
   line-height: 24px;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Noto Sans", sans-serif !important;
 }
 
 .why-choose-us .accordion-column {
@@ -6566,7 +6564,7 @@ img {
   padding: 4px 0;
   background-color: transparent;
   border-bottom: 1px solid #474b5d;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Noto Sans", sans-serif !important;
   -webkit-transition: all 300ms ease;
   -moz-transition: all 300ms ease;
   -ms-transition: all 300ms ease;
@@ -7663,7 +7661,7 @@ img {
   background: #ffffff;
   border: 1px solid #e5e5e5;
   text-transform: capitalize;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Noto Sans", sans-serif !important;
   -webkit-transition: all 500ms ease;
   -moz-transition: all 500ms ease;
   -ms-transition: all 500ms ease;

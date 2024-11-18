@@ -54,10 +54,13 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
     />
-    <!--[if lt IE 9
-      ]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script
-    ><![endif]-->
-    <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>JFA - Home page</title>
   </head>
 
   <body>
@@ -69,7 +72,7 @@
         <!-- Верхний заголовок -->
         <div class="header-upper">
           <div class="inner-container">
-            <div class="auto-container clearfix">
+            <div class="clearfix auto-container">
               <!--Логотип-->
               <div class="logo-outer">
                 <div class="logo">
@@ -83,7 +86,7 @@
               </div>
 
               <!-- Информация -->
-              <div class="info-outer clearfix">
+              <div class="clearfix info-outer">
                 <!-- Информационный блок -->
                 <div class="info-box">
                   <div class="icon">
@@ -132,7 +135,7 @@
         <div class="header-lower">
           <div class="auto-container">
             <!-- Контейнер навигации -->
-            <div class="nav-outer clearfix">
+            <div class="clearfix nav-outer">
               <!-- Кнопка мобильной навигации -->
               <div class="mobile-nav-toggler">
                 <span class="icon flaticon-menu-1"></span>
@@ -155,10 +158,10 @@
                 </div>
 
                 <div
-                  class="collapse navbar-collapse clearfix"
+                  class="clearfix collapse navbar-collapse"
                   id="navbarSupportedContent"
                 >
-                  <ul class="navigation clearfix">
+                  <ul class="clearfix navigation">
                     <li class="current"><a href="#home">Главная</a></li>
                     <li><a href="#about">О нас</a></li>
                     <li><a href="#services">Услуги</a></li>
@@ -179,7 +182,7 @@
               <!-- Конец основного меню -->
 
               <!-- Дополнительные опции -->
-              <div class="outer-box clearfix">
+              <div class="clearfix outer-box">
                 <!-- Button Box -->
                 <div class="btn-box">
                   <a
@@ -197,7 +200,7 @@
 
         <!-- Фиксированный заголовок -->
         <div class="sticky-header">
-          <div class="auto-container clearfix">
+          <div class="clearfix auto-container">
             <!--Логотип-->
             <div class="logo pull-left">
               <a href="index.html" title=""
@@ -213,8 +216,8 @@
             <div class="pull-right">
               <!-- Основное меню -->
               <nav class="main-menu">
-                <div class="navbar-collapse show collapse clearfix">
-                  <ul class="navigation clearfix"></ul>
+                <div class="clearfix navbar-collapse show collapse">
+                  <ul class="clearfix navigation"></ul>
                 </div>
               </nav>
             </div>
@@ -226,7 +229,7 @@
           <div class="menu-backdrop"></div>
           <!-- Меню автоматически добавляется здесь -->
           <nav class="menu-box">
-            <ul class="navigation clearfix"></ul>
+            <ul class="clearfix navigation"></ul>
           </nav>
         </div>
       </header>
@@ -347,7 +350,7 @@
                   data-textalign="['top','top','top','top']"
                   data-frames='[{"delay":1000,"speed":2000,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
                 >
-                  <div class="link-box clearfix" style="margin-top: 40px">
+                  <div class="clearfix link-box" style="margin-top: 40px">
                     <a href="#about" class="theme-btn btn-style-one"
                       >Наши области</a
                     >
@@ -454,7 +457,7 @@
                   data-textalign="['top','top','top','top']"
                   data-frames='[{"delay":1000,"speed":2000,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
                 >
-                  <div class="link-box clearfix">
+                  <div class="clearfix link-box">
                     <a href="#about" class="theme-btn btn-style-one">О нас</a>
                   </div>
                 </div>
@@ -561,7 +564,7 @@
                   data-textalign="['top','top','top','top']"
                   data-frames='[{"delay":1000,"speed":2000,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
                 >
-                  <div class="link-box clearfix">
+                  <div class="clearfix link-box">
                     <a href="#our_values" class="theme-btn btn-style-one"
                       >Почему выбирают нас?</a
                     >
@@ -576,7 +579,7 @@
       <!-- Links Bar -->
       <!-- <section class="links-bar">
         <div class="auto-container">
-            <ul class="services-links clearfix">
+            <ul class="clearfix services-links">
                 <li><a href="project-planning.html">Project Planning</a></li>
                 <li><a href="site-minning.html">Site Minning</a></li>
                 <li><a href="construction-work.html">Construction Work</a></li>
@@ -590,7 +593,7 @@
       <section class="about-section" id="about">
         <div class="auto-container">
           <div class="row">
-            <div class="content-column col-lg-6 col-md-12 col-sm-12 order-2">
+            <div class="order-2 content-column col-lg-6 col-md-12 col-sm-12">
               <div class="inner-column">
                 <div class="sec-title">
                   <span class="title">О компании </span>
@@ -639,7 +642,7 @@
                     ><img src="images/fancybox/whitemi17.jpg" alt=""
                   /></a>
                 </figure>
-                <!-- <figure class="image-2 mt-5"><a href="images/main-slider/4.webp" class="lightbox-image" data-fancybox="images"><img src="images/main-slider/4.webp" class="img-fluid " alt=""></a></figure> -->
+                <!-- <figure class="mt-5 image-2"><a href="images/main-slider/4.webp" class="lightbox-image" data-fancybox="images"><img src="images/main-slider/4.webp" class="img-fluid " alt=""></a></figure> -->
                 <!-- <div class="video-link wow zoomIn"><a href="https://www.youtube.com/watch?v=e_WOEL6F1YE" class="link" data-fancybox="gallery" data-caption=""><span class="icon fa fa-play"></span></a></div> -->
               </div>
             </div>
@@ -651,7 +654,7 @@
       <!-- Services Section -->
       <section class="services-section" id="services">
         <div class="auto-container">
-          <div class="sec-title text-center">
+          <div class="text-center sec-title">
             <span class="title">Наши Услуги</span>
             <h2>Качество, подтверждённое обязательствами!</h2>
           </div>
@@ -778,7 +781,7 @@
                 <div class="image-box">
                   <figure class="image">
                     <img
-                      src="images/gallery/simulitation.webp"
+                      src="images/gallery/simulation.jpg"
                       alt="Авиационные симуляторы"
                     />
                   </figure>
@@ -1046,7 +1049,7 @@
           <figure class="layer-2"></figure>
         </div>
         <div class="auto-container">
-          <div class="sec-title text-center">
+          <div class="text-center sec-title">
             <span class="title">Наши Услуги</span>
             <h2>Почему Вы Должны Выбрать Нас</h2>
           </div>
@@ -1122,7 +1125,7 @@
 
                 <ul class="accordion-box">
                   <!-- Блок -->
-                  <li class="accordion block active-block">
+                  <li class="block accordion active-block">
                     <div class="acc-btn active">
                       Система Управления Инвентарем
                       <div class="icon flaticon-add-1"></div>
@@ -1139,7 +1142,7 @@
                   </li>
 
                   <!-- Блок -->
-                  <li class="accordion block">
+                  <li class="block accordion">
                     <div class="acc-btn">
                       Успех Рабочего Потока
                       <div class="icon flaticon-add-1"></div>
@@ -1156,7 +1159,7 @@
                   </li>
 
                   <!-- Блок -->
-                  <li class="accordion block">
+                  <li class="block accordion">
                     <div class="acc-btn">
                       Запланированные Обновления
                       <div class="icon flaticon-add-1"></div>
@@ -1185,7 +1188,7 @@
       >
         <div class="auto-container">
           <div class="inner-container">
-            <div class="row clearfix">
+            <div class="clearfix row">
               <!--Title Column-->
               <div class="title-column col-lg-6 col-md-12 col-sm-12">
                 <div class="inner-column">
@@ -1223,9 +1226,9 @@
 
       <!--Fluid Section One-->
       <section class="fluid-section-one">
-        <div class="outer-container clearfix">
+        <div class="clearfix outer-container">
           <!-- Form Column -->
-          <div class="form-column clearfix">
+          <div class="clearfix form-column">
             <div class="map-layer"></div>
             <div class="inner-column">
               <div class="sec-title light">
@@ -1394,14 +1397,14 @@
         <!-- Bottom -->
         <div class="footer-bottom">
           <div class="auto-container">
-            <div class="row clearfix">
+            <div class="clearfix row">
               <div class="bottom-column col-md-6 col-sm-12">
                 <div class="copyright-text">
                   <a href="#">MAS Engineering</a> &copy; 2024 Все права защищены
                 </div>
               </div>
               <div class="bottom-column col-md-6 col-sm-12">
-                <ul class="footer-links clearfix">
+                <ul class="clearfix footer-links">
                   <li><a href="#">Условия использования</a></li>
                   <li><a href="#">Политика конфиден</a></li>
                 </ul>
